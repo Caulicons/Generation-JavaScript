@@ -3,7 +3,7 @@ const read = require("readline-sync");
 
 const size = 3;
 const array = new Array(size);
-for (i = 0; i < 3; i++)
+for (i = 0; i < size; i++)
   array[i] = new Array(size);
 
 for (i = 0; i < size; i++)
