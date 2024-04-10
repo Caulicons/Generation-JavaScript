@@ -1,7 +1,6 @@
 const read = require("readline-sync");
 
 const array = [];
-/* TODO: Implement a logic to not repeat numbers */
 for (i = 0; i < 10; i++) {
   array[i] = read.questionInt("Enter a number: ");
 };
