@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background);
+}
+
+main {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+/* ----- HEADER ----- */
+header {
+  background-color: var(--darkPurple);
+  padding: 24px;
+}
+
+.container {
+  max-width: var(--max-width);
+}
+
+header > div {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+}
+
+header > div > h1 {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header > div > nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+  color: var(--white);
+  font-size: 18px;
+}
+
+#about > article > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#about > article > div > button {
+  margin: 0;
+  width: 150px;
+}
+
+/* ----- Contact me ----- */
+#contact-me > article {
+  width: 80%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+#contact-me > article > div > img {
+  width: 75px;
+}
