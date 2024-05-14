@@ -54,6 +54,13 @@ header > div > nav > ul {
   width: 150px;
 }
 
+#about > img {
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 50%;
+  border: 15px solid var(--darkPurple);
+}
+
 /* ----- Contact me ----- */
 #contact-me > article {
   width: 80%;

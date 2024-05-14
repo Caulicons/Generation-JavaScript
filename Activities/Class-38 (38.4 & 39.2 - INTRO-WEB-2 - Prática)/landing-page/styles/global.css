@@ -34,6 +34,10 @@ button {
   border-color: transparent;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 section {
   height: 100vh;
   width: 100%;
